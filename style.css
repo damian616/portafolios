@@ -1,0 +1,48 @@
+.navbar-brand {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.navbar-nav {
+  padding-right: 1em;
+}
+
+header.hero-image {
+  background-image: url(https://images.unsplash.com/photo-1508830524289-0adcbe822b40?auto=format&fit=crop&w=1311&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+  height: 100vh;
+}
+header.hero-image p {
+  text-shadow: 0 0 4px #212121;
+}
+
+.efecto:hover {
+  transform: scale(1.01, 1.01);
+  box-shadow: 0 0 15px 0 #9E9E9E;
+  transition: all 0.4s ease;
+}
+
+.media-body {
+  width: 42em;
+}
+
+.user_media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (max-width: 575.98px) {
+  #mytabContent #githubCard {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.card-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
